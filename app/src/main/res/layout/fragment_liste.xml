@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bijela"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dKategorije"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/crna"
+            android:text="@string/kategorije"
+            android:textColor="@color/bijela"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dAutori"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/crna"
+            android:text="@string/autori"
+            android:textColor="@color/bijela"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/tekstPretraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/boja_pozadine"
+            android:ems="10"
+            android:hint="@string/unesite_tekst"
+            android:inputType="textPersonName"
+            android:shadowColor="@color/boja_pozadine"
+            android:textColor="@color/crna" />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dPretraga"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/boja_pozadine"
+            android:text="@string/pretraga"
+            android:textColor="@color/bijela"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dDodajKategoriju"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/boja_pozadine"
+            android:text="@string/dodaj_kategoriju"
+            android:textColor="@color/bijela"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dDodajKnjigu"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/boja_pozadine"
+            android:text="@string/dodaj_knjigu"
+            android:textColor="@color/bijela"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ListView
+        android:id="@+id/listaKategorija"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:cacheColorHint="@color/crna">
+
+</ListView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/dDodajOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/crvena"
+        android:text="@string/dodaj_knjigu_online"
+        android:textColor="@color/bijela"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

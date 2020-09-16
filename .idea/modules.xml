@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RMA finalni projekat-rma18alikadic16732.iml" filepath="$PROJECT_DIR$/RMA finalni projekat-rma18alikadic16732.iml" group="rma18alikadic16732" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rma18alikadic16732.iml" filepath="$PROJECT_DIR$/rma18alikadic16732.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/rma18alikadic16732-app.iml" filepath="$PROJECT_DIR$/app/rma18alikadic16732-app.iml" group="rma18alikadic16732/app" />
+    </modules>
+  </component>
+</project>

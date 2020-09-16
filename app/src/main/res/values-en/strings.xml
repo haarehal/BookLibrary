@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eLibrary</string>
+    <string name="odaberi_sliku">CHOOSE PICTURE</string>
+    <string name="kategorije">CATEGORIES</string>
+    <string name="autori">AUTHORS</string>
+    <string name="unesite_tekst">Enter text...</string>
+    <string name="pretraga">SEARCH</string>
+    <string name="dodaj_kategoriju">ADD CATEGORY</string>
+    <string name="dodaj_knjigu">ADD BOOK</string>
+    <string name="naslovna_stranica">Front page</string>
+    <string name="ime_autora">"Author's name"</string>
+    <string name="naziv_knjige">"Book's title"</string>
+    <string name="zanr_kategorija">Genre/category:</string>
+    <string name="ponisti">CANCEL</string>
+    <string name="upisi_knjigu">REGISTER BOOK</string>
+    <string name="povratak">BACK</string>
+    <string name="nema_upisanih_knjiga">EMPTY LIST</string>
+    <string name="molimo_popunite_sva_polja">PLEASE FILL ALL FIELDS</string>
+    <string name="molimo_izaberite_sliku">PLEASE CHOOSE PICTURE</string>
+    <string name="autor">Author</string>
+    <string name="broj_knjiga">Number of books</string>
+    <string name="knjiga_upisana">BOOK REGISTERED</string>
+    <string name="knjige">Books:</string>
+    <string name="dodaj_knjigu_online">ADD BOOK ONLINE</string>
+    <string name="nema_dohvacenih_knjiga">No retrieved books!</string>
+    <string name="obrada_podataka_je_zapoceta">Data processing started!</string>
+    <string name="knjige_uspjesno_dohvacene">Books successfully retrieved!</string>
+    <string name="kontakt_email">"Contact's e-mail:"</string>
+    <string name="posalji_email">SEND E-MAIL</string>
+    <string name="nepostojeca_email_adresa">NONEXISTENT E-MAIL ADRESS</string>
+    <string name="preporuci_knjigu">RECOMMEND A BOOK</string>
+    <string name="datum_objavljivanja">Publication date:</string>
+    <string name="broj_stranica">Number of pages:</string>
+    <string name="opis">Description:</string>
+    <string name="naziv_knjige_2">"BOOK'S TITLE":</string>
+    <string name="datum_objavljivanja_2">PUBLICATION DATE:</string>
+    <string name="broj_stranica_2">NUMBER OF PAGES:</string>
+    <string name="autor_2">AUTHOR:</string>
+    <string name="opis_2">DESCRIPTION:</string>
+</resources>
